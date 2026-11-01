@@ -5,7 +5,7 @@ Proyecto didáctico que muestra el **patrón de diseño State** (patrón de comp
 ## ¿Qué problema resuelve?
 
 Un objeto cambia su comportamiento según su estado interno. La solución ingenua llena cada método de `if/else` o `switch`:
-
+# Diagrama UML
 ```java
 public void insertarMoneda() {
     if (estado == SIN_MONEDA) { ... }
