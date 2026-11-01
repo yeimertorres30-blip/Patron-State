@@ -5,7 +5,7 @@ Proyecto didáctico que muestra el **patrón de diseño State** (patrón de comp
 ## ¿Qué problema resuelve?
 
 Un objeto cambia su comportamiento según su estado interno. La solución ingenua llena cada método de `if/else` o `switch`:
-# Diagrama UML
+
 ```java
 public void insertarMoneda() {
     if (estado == SIN_MONEDA) { ... }
@@ -86,7 +86,7 @@ java -Dfile.encoding=UTF-8 -cp out maquina.Main
 - Agregar un `EstadoMantenimiento` al que se entre por un método `activarMantenimiento()`.
 - Hacer que la máquina requiera dos monedas.
 - Agregar un estado "Ganador" con un 10 % de probabilidad de entregar un producto extra.
-
+# Diagrama UML
 El siguiente diagrama en sintaxis **Mermaid** representa la estructura del patrón de diseño **State** basado en las clases del paquete `maquina` (`EstadoMaquina`, `MaquinaExpendedora`, `EstadoSinMoneda`, `EstadoConMoneda`, `EstadoDispensando`, `EstadoSinStock` y `Main`).
 
 ```mermaid
